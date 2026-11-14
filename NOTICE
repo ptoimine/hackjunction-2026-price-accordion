@@ -1,0 +1,27 @@
+Third-party material and services used by Price Accordion – Hintahaitari
+=========================================================================
+
+Our own code and documents are under the MIT licence (see LICENSE), except as listed here.
+
+Meta Wearables Device Access Toolkit (DAT) and its sample app
+  - The SDK is not included in this repository. The Xcode project fetches it as a Swift package
+    (https://github.com/facebook/meta-wearables-dat-ios, pinned to 1.0.1). Using it means accepting the Meta
+    Wearables Developer Terms: https://wearables.developer.meta.com/terms
+  - The iOS app started from Meta's "CameraAccess" sample. The Swift files that still carry the header
+    "Copyright (c) Meta Platforms, Inc. and affiliates" (and the sample's test video and image in
+    ios-app/PriceSense/TestResources, and the app icon) are Meta's material, kept with their headers, and stay under
+    Meta's terms, not under our MIT licence.
+
+Lens art (design/glasses, ios-app/PriceSense/Glasses/HUD)
+  - Generated with Retro Diffusion in an 8-bit arcade style, then cleaned by design/glasses/process_assets.py.
+    Check the generator's terms before reusing the art outside this project.
+
+S-Pankki challenge data
+  - The synthetic dataset from the Junction 2026 S-Pankki challenge is NOT included. docs/spankki_data.md is a summary of
+    its structure and aggregate figures. The tables built from it (data/spankki/monthly.csv and customers.csv) are
+    git-ignored on purpose. The customers are synthetic, never real people.
+
+Online services (you bring your own keys; see README and .env.example)
+  - NVIDIA Build API (Nemotron) and Context.dev (live web data: respect each site's terms). Their terms apply to your use of them.
+
+Python dependencies (server/pyproject.toml, server/uv.lock) and the other Swift packages keep their own licences.

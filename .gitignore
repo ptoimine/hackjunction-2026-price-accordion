@@ -1,0 +1,18 @@
+.env
+data/
+.venv/
+__pycache__/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+DerivedData/
+cache/
+docs/meta-wearables-dat-ios/
+docs/meta-wearables-webapp/
+
+# unpacked art (regenerate with design/glasses/process_assets.py)
+design/glasses/_unzipped/
+design/glasses/contact_sheet.png
+
+# run-on-phone logs, pids and derived data
+.run/

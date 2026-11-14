@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Full set from Meta's CameraAccess sample. The glasses' camera stream runs over Wi-Fi: the
+	     DAT SDK joins the glasses' hotspot (NEHotspotConfigurationManager) and reads the current
+	     SSID, which needs the two networking entitlements below.
+	     They require a PAID Apple Developer Program team (a free Personal Team cannot sign them).
+	     On a free team, build with PriceSense.freeteam.entitlements instead (see README). -->
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)$(CFBundleIdentifier)</string>
+	</array>
+	<key>com.apple.developer.networking.HotspotConfiguration</key>
+	<true/>
+	<key>com.apple.developer.networking.wifi-info</key>
+	<true/>
+</dict>
+</plist>

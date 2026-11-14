@@ -1,0 +1,145 @@
+{
+  "reticle": {
+    "frames": 1,
+    "size": 512,
+    "frame_ms": null,
+    "loops": false,
+    "bright_extent": [
+      8,
+      8,
+      504,
+      504
+    ],
+    "corners_black": true
+  },
+  "brackets_base": {
+    "frames": 1,
+    "size": 256,
+    "frame_ms": null,
+    "loops": false,
+    "bright_extent": [
+      32,
+      32,
+      224,
+      224
+    ],
+    "corners_black": true
+  },
+  "capture_frame": {
+    "frames": 1,
+    "size": 256,
+    "frame_ms": null,
+    "loops": false,
+    "bright_extent": [
+      4,
+      4,
+      252,
+      252
+    ],
+    "corners_black": true
+  },
+  "coin": {
+    "frames": 1,
+    "size": 32,
+    "frame_ms": null,
+    "loops": false,
+    "bright_extent": [
+      5,
+      3,
+      27,
+      27
+    ],
+    "corners_black": true
+  },
+  "icon_camera": {
+    "frames": 1,
+    "size": 32,
+    "frame_ms": null,
+    "loops": false,
+    "bright_extent": [
+      2,
+      2,
+      30,
+      27
+    ],
+    "corners_black": true
+  },
+  "screen_border": {
+    "frames": 1,
+    "size": 32,
+    "frame_ms": null,
+    "loops": false,
+    "bright_extent": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "corners_black": true
+  },
+  "idle": {
+    "frames": 8,
+    "size": 256,
+    "frame_ms": 150,
+    "loops": true,
+    "bright_extent": [
+      32,
+      32,
+      224,
+      224
+    ],
+    "corners_black": true
+  },
+  "lockon": {
+    "frames": 8,
+    "size": 256,
+    "frame_ms": 60,
+    "loops": false,
+    "bright_extent": [
+      32,
+      32,
+      224,
+      224
+    ],
+    "corners_black": true
+  },
+  "success": {
+    "frames": 8,
+    "size": 256,
+    "frame_ms": 60,
+    "loops": false,
+    "bright_extent": [
+      4,
+      4,
+      252,
+      252
+    ],
+    "corners_black": true
+  },
+  "coin_spin": {
+    "frames": 8,
+    "size": 32,
+    "frame_ms": 100,
+    "loops": true,
+    "bright_extent": [
+      5,
+      3,
+      27,
+      27
+    ],
+    "corners_black": true
+  },
+  "coin_spin_alt": {
+    "frames": 8,
+    "size": 32,
+    "frame_ms": 100,
+    "loops": true,
+    "bright_extent": [
+      5,
+      3,
+      27,
+      27
+    ],
+    "corners_black": true
+  }
+}
